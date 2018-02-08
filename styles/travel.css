@@ -1,0 +1,39 @@
+#travel{
+	position: relative;
+	padding-left: 15%;
+	padding-right: 25%;
+	text-align: left;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	font-size: 1.2em;
+}
+
+#travel *{
+	z-index: 4;
+	color: white;
+	position: relative;
+}
+#travel button.baby-blue{
+	font-size: 1em;
+}
+
+#travel .travel-cover{/*#3c0eb7*/
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background: linear-gradient(90deg,#3c0eb7,transparent,transparent);
+	opacity: .4;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+#travel img{
+	top: 0;
+	left: 0;
+	position: absolute;
+	z-index: 0;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
